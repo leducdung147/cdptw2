@@ -15,6 +15,10 @@
           justify-content: center;
 }
 
+.pricing-section .nav-link.active {
+  background: #57c8ea;
+}
+
 .pricing-section .card {
   border: 0;
   border-radius: 0px;

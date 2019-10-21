@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="./10/scss/10.css" >
     <link rel="stylesheet" href="./11/scss/11.css" >
     <link rel="stylesheet" href="./12/scss/12.css" >
+    <link rel="stylesheet" href="./13/scss/13.css" >
+    <link rel="stylesheet" href="./14/scss/14.css" >
+    
     <link href="./css/swiper.min.css" rel="stylesheet" type="text/css" />
 
 </head>
@@ -28,6 +31,8 @@
       <?php include "./11/11-content.php"; ?>
       <?php include "./12/12-content.php"; ?>
       <?php include "./13/13-content.php"; ?>
+      <?php include "./14/14-content.php"; ?>
+      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
@@ -39,7 +44,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src='./js/swiper.min.js'></script>
     <script src='./js/swiper.min.js'></script>
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="./js/script_13.js"></script>
 <script>
 
     var swiper1 = new Swiper('.swiper1', {
@@ -87,6 +93,10 @@
         },
         // when window width is >= 640px
         640: {
+        slidesPerView: 1,
+        spaceBetween: 20
+        },
+        1200: {
         slidesPerView: 4,
         spaceBetween: 20
         }
@@ -124,18 +134,22 @@
             // when window width is >= 320px
             320: {
                 slidesPerView: 1,
-                spaceBetween: 0
+                spaceBetween: 20
             },
             // when window width is >= 480px
             480: {
                 slidesPerView: 1,
-                spaceBetween: 0
+                spaceBetween: 20
             },
             // when window width is >= 640px
             640: {
-                slidesPerView: 2,
+                slidesPerView: 1,
                 spaceBetween: 20
-            }
+            },
+            1200: {
+        slidesPerView: 2,
+        spaceBetween: 20
+        }
         }
     });
 </script>
@@ -191,9 +205,13 @@
                 spaceBetween: 0
             },
             768: {
-                slidesPerView: 3,
+                slidesPerView: 1,
                 spaceBetween: 20
-            }
+            },
+            1200: {
+        slidesPerView: 3,
+        spaceBetween: 20
+        }
         }
     });
 
