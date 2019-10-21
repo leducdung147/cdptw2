@@ -1,0 +1,39 @@
+.module-1 {
+    background: #504B47;
+    color: #B1B0AF;
+    font-size: 14px;
+}
+
+.module-1__left {
+    display: inline-block;
+    line-height: 50px;
+}
+
+.module-1__right {
+    display: inline-block;
+    margin-right: 0;
+    margin-left: auto;
+    line-height: 50px;
+}
+
+.module-1__item:not(.module-1__item-button) {
+    display: inline-block;
+    padding: 0 2.4em;
+}
+
+.module-1__item-button {
+    display: inline-block;
+    color: #504B47;
+    background: #edb39b;
+    padding: 0 2.4em;
+}
+
+.module-1__container {
+    display: flex;
+}
+
+@media only screen and (max-width: 1024px) {
+    .module-1 {
+        display: none;
+    }
+}
