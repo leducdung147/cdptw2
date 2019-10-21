@@ -39,4 +39,10 @@
 .contact h1 {
   font-family: "texgyretermes", serif;
 }
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.8rem;
+  }
+}
 /*# sourceMappingURL=11.css.map */

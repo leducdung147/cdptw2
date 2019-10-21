@@ -1,42 +1,100 @@
-<section class="question-section">
+<section class="question-section py-5">
     <div class="container">
-    <div class="title">
+    <div class="title text-center">
         <h1>Question & Concerns</h1>
     </div>
     <hr>
     <div class="content">
         <div class="row">
-            <div class="col-12 col-md-6"><div id="accordianId" role="tablist" aria-multiselectable="true">
+            <div class="col-12 col-md-6">
+            <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h6 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <span>+</span>  Where do I get started?
+        </button>
+      </h6>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+      Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Vel illum dolore eu feugiat nulla facilisis at vero.</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h6 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <span>+</span>  What happens the period?
+        </button>
+      </h6>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+      Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Vel illum dolore eu feugiat nulla facilisis at vero.</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h6 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <span>+</span>  Can I cancel the treatment?
+        </button>
+      </h6>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+      Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Vel illum dolore eu feugiat nulla facilisis at vero.</div>
+    </div>
+  </div>
+</div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div id="accordion1">
                 <div class="card">
-                    <div class="card-header" role="tab" id="section1HeaderId">
-                        <h5 class="mb-0">
-                            <a data-toggle="collapse" data-parent="#accordianId" href="#section1ContentId" aria-expanded="true" aria-controls="section1ContentId">
-                      Where do I get started?
-                    </a>
-                        </h5>
-                    </div>
-                    <div id="section1ContentId" class="collapse in" role="tabpanel" aria-labelledby="section1HeaderId">
-                        <div class="card-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptate quis explicabo voluptatibus nemo architecto error dignissimos culpa quas possimus corrupti itaque officiis, reprehenderit repellat. Sint eius iusto itaque recusandae.
-                        </div>
-                    </div>
+                  <div class="card-header" id="6">
+                    <h6 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapseOne">
+                      <span>+</span> How do I know is a progress?
+                      </button>
+                    </h6>
+                  </div>
+              
+                  <div id="collapse6" class="collapse show" aria-labelledby="6" data-parent="#accordion1">
+                    <div class="card-body">
+                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Vel illum dolore eu feugiat nulla facilisis at vero.</div>
+                  </div>
                 </div>
                 <div class="card">
-                    <div class="card-header" role="tab" id="section2HeaderId">
-                        <h5 class="mb-0">
-                            <a data-toggle="collapse" data-parent="#accordianId" href="#section2ContentId" aria-expanded="true" aria-controls="section2ContentId">
-                            What happens at the end of the parid period ?
-                    </a>
-                        </h5>
-                    </div>
-                    <div id="section2ContentId" class="collapse in" role="tabpanel" aria-labelledby="section2HeaderId">
-                        <div class="card-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ad, pariatur aliquam dolore distinctio iste architecto accusamus provident amet atque dolorem, non voluptates fuga unde tempora nobis fugit aliquid dolorum.
-                        </div>
-                    </div>
+                  <div class="card-header" id="6">
+                    <h6 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapseTwo">
+                       <span>+</span> Do subscribers for shopping?
+                      </button>
+                    </h6>
+                  </div>
+                  <div id="collapse7" class="collapse" aria-labelledby="6" data-parent="#accordion1">
+                    <div class="card-body">
+                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Vel illum dolore eu feugiat nulla facilisis at vero.</div>
+                  </div>
                 </div>
-            </div></div>
-            <div class="col-12 col-md-6"></div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h6 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapseThree">
+                      <span>+</span>  What are the books' ?
+                      </button>
+                    </h6>
+                  </div>
+                  <div id="collapse8" class="collapse" aria-labelledby="headingThree" data-parent="#accordion1">
+                    <div class="card-body">
+                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Vel illum dolore eu feugiat nulla facilisis at vero.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
         </div>
     </div>
     </div>

@@ -29,4 +29,10 @@
    h1{
       font-family: "texgyretermes", serif;
    }
+   
 }
+@media (max-width :768px){
+    .title{
+        font-size: 1.8rem;
+    }
+   }
