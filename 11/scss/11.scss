@@ -1,0 +1,32 @@
+
+.contact{
+    background-image: url(/cdptw2/images/bg_book_appointment.jpg);
+   .title{color: white;}
+   input{
+       border-radius: 50px;
+       height: 50px;
+   }
+   .description{
+       color: #33302e;
+       font-size: 12px;
+   }
+   textarea{
+    border-radius: 20px;
+    height: 100px;
+   }
+   .send-messeage{
+       background: #504B47;
+       border-radius: 50px;
+       color: white;
+       text-decoration: none;
+       &:hover{
+        background: rgb(71, 67, 64);
+       }
+   }
+   :-ms-input-placeholder{
+       color: #cecece;
+   }
+   h1{
+      font-family: "texgyretermes", serif;
+   }
+}

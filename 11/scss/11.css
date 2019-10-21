@@ -1,0 +1,42 @@
+.contact {
+  background-image: url(/cdptw2/images/bg_book_appointment.jpg);
+}
+
+.contact .title {
+  color: white;
+}
+
+.contact input {
+  border-radius: 50px;
+  height: 50px;
+}
+
+.contact .description {
+  color: #33302e;
+  font-size: 12px;
+}
+
+.contact textarea {
+  border-radius: 20px;
+  height: 100px;
+}
+
+.contact .send-messeage {
+  background: #504B47;
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.contact .send-messeage:hover {
+  background: #474340;
+}
+
+.contact :-ms-input-placeholder {
+  color: #cecece;
+}
+
+.contact h1 {
+  font-family: "texgyretermes", serif;
+}
+/*# sourceMappingURL=11.css.map */
