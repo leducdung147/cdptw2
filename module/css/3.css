@@ -28,8 +28,8 @@
 .module-3__caption-slide1,
 .module-3__caption-slide3 {
     position: absolute;
-    top: 25%;
-    left: 5%;
+    top: 20%;
+    left: 8%;
     line-height: 80px;
 }
 
@@ -68,4 +68,26 @@
 .content_caption3 {
     font-size: 22px;
     line-height: 26px;
+}
+
+@media only screen and (max-width: 768px) {
+    .title_caption,
+    .content_caption3 {
+        font-size: 9px!important;
+        margin-bottom: 5px;
+    }
+    .content_caption,
+    .title_caption3,
+    .content_caption2 {
+        font-size: 27px!important;
+        line-height: 33px;
+        margin-bottom: 5px;
+    }
+    .more_infomation {
+        padding: 0.25em 0.6em !important;
+        margin: 0 auto;
+    }
+    .more_infomation.slide2 {
+        margin-left: 40%;
+    }
 }

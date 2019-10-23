@@ -1,10 +1,8 @@
-h2 {
-    font-family: "texgyretermes", serif!important;
-    font-size: 3em!important;
-    line-height: 1.3em!important;
-    font-weight: 400!important;
-    margin-top: 1.222em!important;
-    margin-bottom: 0.333em!important;
+.title-module-4 {
+    font-family: "texgyretermes", serif;
+    font-size: 3em;
+    line-height: 200px;
+    font-weight: 400;
 }
 
 .title-services {
@@ -17,7 +15,7 @@ h2 {
     display: block;
     width: 20px;
     height: 2px;
-    margin: 0.4em auto 0.55em;
+    margin: -50px auto 0.55em;
     background-color: #72b5ca;
 }
 
@@ -52,8 +50,6 @@ h2 {
     color: #6f6f6f;
 }
 
-
-
 .explore-more {
     margin-top: 60px;
     margin-left: 40%;
@@ -72,9 +68,12 @@ h2 {
     line-height: 1.4em;
     font-weight: 300;
 }
-@media only screen (max-width: 768px){
-    .col-md-6{
+
+@media only screen and (max-width: 768px) {
+    .title-module-4 {
+        font-size: 30px!important;
+    }
+    .menu-item-services {
         font-size: 12px!important;
-        
     }
 }

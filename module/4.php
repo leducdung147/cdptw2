@@ -2,7 +2,7 @@
     <div class="module-4">
         <div class="module-4__container container">
             <div class="title-services">
-                <h2>Psychological Services</h2>
+                <span class="title-module-4">Psychological Services</span>
             </div>
             <div class="item-services">
                 <span>It's my goal to create a comfortable, safe environment where we'll work together to achieve your goals.</span>
@@ -26,7 +26,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 right">
                     <div class="menu-item-services">
                         <i class="fa fa-check" aria-hidden="true"></i><span>Assessment Consultation & Treatment</span>
                     </div>
