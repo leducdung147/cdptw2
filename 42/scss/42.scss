@@ -1,0 +1,17 @@
+.module-42{
+  text-align: center;
+  .module-42__body{
+    .module-42__row{
+      color: #afafaf;
+      &:hover{
+        background-color: rgba(114,181,202,0.1);
+      }
+    }
+  }
+  .module-42__head{
+    .module-42__row{
+      background: #fcf7f1;
+      &>th{font-weight: normal;}
+    }
+  }
+}
