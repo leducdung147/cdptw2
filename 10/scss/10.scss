@@ -1,19 +1,38 @@
-.img_site{
-    background: #FCF7F2;
-    .icon-share{
-        a{
-            text-decoration: none;
-            ion-icon{
-                width: 25px;
-                height: 25px;
-                padding: 8px;
-                background: burlywood;
-                color: white;
-                border-radius: 50%;
-                &:hover{
-                    background: rgb(190, 158, 115);
-                }
-            }
-        }
-    }
+
+.contact{
+    background-image: url(/cdptw2/images/bg_book_appointment.jpg);
+   .title{color: white;}
+   input{
+       border-radius: 50px;
+       height: 50px;
+   }
+   .description{
+       color: #33302e;
+       font-size: 12px;
+   }
+   textarea{
+    border-radius: 20px;
+    height: 100px;
+   }
+   .send-messeage{
+       background: #504B47;
+       border-radius: 50px;
+       color: white;
+       text-decoration: none;
+       &:hover{
+        background: rgb(71, 67, 64);
+       }
+   }
+   :-ms-input-placeholder{
+       color: #cecece;
+   }
+   h1{
+      font-family: "texgyretermes", serif;
+   }
+   
 }
+@media (max-width :768px){
+    .title{
+        font-size: 1.8rem;
+    }
+   }

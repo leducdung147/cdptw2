@@ -1,57 +1,39 @@
-.how {
+.testimonials {
   font-family: "texgyretermes", serif;
   text-align: center;
+  background: #EAF5FA;
 }
 
-.how hr {
-  width: 50px;
+.testimonials small {
+  color: #B5C6CB;
 }
 
-.how .text {
+.testimonials .text {
   text-align: center;
   color: #707070;
   max-width: 540px;
   margin: 0 auto;
 }
 
-.how .swiper-container {
+.testimonials .swiper-container .swiper-slide {
+  min-height: 500px !important;
+}
+
+.testimonials .swiper-container .swiper-slide article img {
+  margin-top: -40px;
+  bottom: -100px;
+  left: calc(50% - 60px);
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  z-index: 200;
+}
+
+.testimonials .swiper-container .swiper-slide article .note {
   position: relative;
-}
-
-.how .swiper-container .swiper-slide article img {
-  border-radius: 50%;
-  margin-bottom: 2rem;
-}
-
-.how .swiper-container .swiper-slide article p {
+  text-align: none;
   color: #707070;
-  margin: 0 auto;
-}
-
-.how .swiper-container .swiper-background {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  line-height: 45px;
-  margin-top: 3rem;
-  border-radius: 50%;
-  background: #EDB39B;
-}
-
-.how .swiper-container .swiper-background i {
-  border: solid white;
-  border-width: 0 1px 1px 0;
-  display: inline-block;
-  padding: 3px;
-}
-
-.how .swiper-container .swiper-background .right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
-.how .swiper-container .swiper-background .left {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
+  padding: 50px;
+  background: white;
+  z-index: -100;
 }
 /*# sourceMappingURL=7.css.map */

@@ -1,71 +1,40 @@
-.how {
-
-    font-family: "texgyretermes", serif;
-    text-align: center;
-
-hr {
-    width: 50px;
+.testimonials {
+  font-family: "texgyretermes", serif;
+  text-align: center;
+  background: #EAF5FA;
 }
 
-.text {
-    text-align: center;
-    color: #707070;
-    max-width: 540px;
-    margin: 0 auto;
+.testimonials small {
+  color: #B5C6CB;
 }
 
-.swiper-container {
-    position: relative;
-
-    .swiper-slide {
-       
-        
-        article {
-            img {
-                border-radius: 50%;
-                margin-bottom: 2rem;
-            }
-
-            p {
-                color: #707070;
-                margin: 0 auto;
-            }
-        }
-    }
-
-    .swiper-background {
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        line-height: 45px;
-        margin-top: 3rem;
-        border-radius: 50%;
-
-        background: #EDB39B;
-
-
-        i {
-            border: solid white;
-            border-width: 0 1px 1px 0;
-            display: inline-block;
-            padding: 3px;
-
-       
-        }
-        .right {
-            transform: rotate(-45deg);
-            -webkit-transform: rotate(-45deg);
-        }
-
-        .left {
-            transform: rotate(135deg);
-            -webkit-transform: rotate(135deg);
-        }
-    }
-
-
-
-
+.testimonials .text {
+  text-align: center;
+  color: #707070;
+  max-width: 540px;
+  margin: 0 auto;
 }
 
+
+.testimonials .swiper-container .swiper-slide {
+  min-height: 500px !important;
 }
+
+.testimonials .swiper-container .swiper-slide article img {
+  margin-top: -40px;
+  bottom: -100px;
+  left: calc(50% - 60px);
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  z-index: 200;
+}
+
+.testimonials .swiper-container .swiper-slide article .note {
+  position: relative;
+  text-align: none;
+  color: #707070;
+  padding: 50px;
+  background: white;
+  z-index: -100;
+}
+/*# sourceMappingURL=8.css.map */

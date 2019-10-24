@@ -1,161 +1,101 @@
-<section class=" pricing-section text-center py-5">
-  <div class="container">
-    <div class="title">
-      <h2>Pricing Plans</h2>
+<section class="question-section py-5">
+    <div class="container">
+    <div class="title text-center">
+        <h1>Question & Concerns</h1>
     </div>
-    <div class="description text-uppercase">
-      <p>Check out out Pricing plans</p>
+    <hr>
+    <div class="content">
+        <div class="row">
+            <div class="col-12 col-md-6">
+            <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h6 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <span>+</span>  Where do I get started?
+        </button>
+      </h6>
     </div>
-    <ul class="nav nav-pills" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-toggle="pill" href="#home">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="pill" href="#menu1">Menu 1</a>
-    </li>
-    
-  </ul>
-  <div class="tab-content">
-    <div id="home" class="container tab-pane active"><br>
-    <div class="row ">
 
-<!-- Table #1  -->
-<div class="col-12 col-lg-4 mb-4">
-  <div class="card text-xs-center">
-    <div class="card-header">
-      <h3 class="display-2"><span class="currency">$</span>100<span class="period">/month</span></h3>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+      Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Vel illum dolore eu feugiat nulla facilisis at vero.</div>
     </div>
-    <div class="card-block">
-      <h4 class="card-title">
-        Basic Plan
-      </h4>
-      <ul class="list-group">
-        <li class="list-group-item">Ultimate Features</li>
-        <li class="list-group-item">Responsive Ready</li>
-        <li class="list-group-item">Visual Composer Included</li>
-        <li class="list-group-item">24/7 Support System</li>
-      </ul>
-      <a href="#" class="btn btn-gradient mt-2">Order now</a>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h6 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <span>+</span>  What happens the period?
+        </button>
+      </h6>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+      Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Vel illum dolore eu feugiat nulla facilisis at vero.</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h6 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <span>+</span>  Can I cancel the treatment?
+        </button>
+      </h6>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+      Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Vel illum dolore eu feugiat nulla facilisis at vero.</div>
     </div>
   </div>
 </div>
-
-<!-- Table #1  -->
-<div class="col-12 col-lg-4 mb-4">
-  <div class="card text-xs-center">
-    <div class="card-header">
-      <h3 class="display-2"><span class="currency">$</span>350<span class="period">/month</span></h3>
-    </div>
-    <div class="card-block">
-      <h4 class="card-title">
-        Regular Plan
-      </h4>
-      <ul class="list-group">
-        <li class="list-group-item">Ultimate Features</li>
-        <li class="list-group-item">Responsive Ready</li>
-        <li class="list-group-item">Visual Composer Included</li>
-        <li class="list-group-item">24/7 Support System</li>
-      </ul>
-      <a href="#" class="btn btn-gradient mt-2">Order now</a>
-    </div>
-  </div>
-</div>
-
-<!-- Table #1  -->
-<div class="col-12 col-lg-4 ">
-  <div class="card text-xs-center">
-    <div class="card-header">
-      <h3 class="display-2"><span class="currency">$</span>200<span class="period">/month</span></h3>
-    </div>
-    <div class="card-block">
-      <h4 class="card-title">
-        Premium Plan
-      </h4>
-      <ul class="list-group">
-        <li class="list-group-item">Ultimate Features</li>
-        <li class="list-group-item">Responsive Ready</li>
-        <li class="list-group-item">Visual Composer Included</li>
-        <li class="list-group-item">24/7 Support System</li>
-      </ul>
-      <a href="#" class="btn btn-gradient mt-2">Order now</a>
-    </div>
-  </div>
-</div></div>
-</div>
-    <div id="menu1" class="container tab-pane fade"><br>
-    <div class="row ">
-
-      <!-- Table #1  -->
-      <div class="col-12 col-lg-4 mb-4">
-        <div class="card text-xs-center">
-          <div class="card-header">
-            <h3 class="display-2"><span class="currency">$</span>100<span class="period">/month</span></h3>
-          </div>
-          <div class="card-block">
-            <h4 class="card-title">
-              Basic Plan
-            </h4>
-            <ul class="list-group">
-              <li class="list-group-item">Ultimate Features</li>
-              <li class="list-group-item">Responsive Ready</li>
-              <li class="list-group-item">Visual Composer Included</li>
-              <li class="list-group-item">24/7 Support System</li>
-            </ul>
-            <a href="#" class="btn btn-gradient mt-2">Order now</a>
-          </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div id="accordion1">
+                <div class="card">
+                  <div class="card-header" id="6">
+                    <h6 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapseOne">
+                      <span>+</span> How do I know is a progress?
+                      </button>
+                    </h6>
+                  </div>
+              
+                  <div id="collapse6" class="collapse show" aria-labelledby="6" data-parent="#accordion1">
+                    <div class="card-body">
+                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Vel illum dolore eu feugiat nulla facilisis at vero.</div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="6">
+                    <h6 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapseTwo">
+                       <span>+</span> Do subscribers for shopping?
+                      </button>
+                    </h6>
+                  </div>
+                  <div id="collapse7" class="collapse" aria-labelledby="6" data-parent="#accordion1">
+                    <div class="card-body">
+                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Vel illum dolore eu feugiat nulla facilisis at vero.</div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h6 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapseThree">
+                      <span>+</span>  What are the books' ?
+                      </button>
+                    </h6>
+                  </div>
+                  <div id="collapse8" class="collapse" aria-labelledby="headingThree" data-parent="#accordion1">
+                    <div class="card-body">
+                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Vel illum dolore eu feugiat nulla facilisis at vero.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
         </div>
-      </div>
-      
-      <!-- Table #1  -->
-      <div class="col-12 col-lg-4 mb-4">
-        <div class="card text-xs-center">
-          <div class="card-header">
-            <h3 class="display-2"><span class="currency">$</span>350<span class="period">/month</span></h3>
-          </div>
-          <div class="card-block">
-            <h4 class="card-title">
-              Regular Plan
-            </h4>
-            <ul class="list-group">
-              <li class="list-group-item">Ultimate Features</li>
-              <li class="list-group-item">Responsive Ready</li>
-              <li class="list-group-item">Visual Composer Included</li>
-              <li class="list-group-item">24/7 Support System</li>
-            </ul>
-            <a href="#" class="btn btn-gradient mt-2">Order now</a>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Table #1  -->
-      <div class="col-12 col-lg-4 mb-4">
-        <div class="card text-xs-center">
-          <div class="card-header">
-            <h3 class="display-2"><span class="currency">$</span>200<span class="period">/month</span></h3>
-          </div>
-          <div class="card-block">
-            <h4 class="card-title">
-              Premium Plan
-            </h4>
-            <ul class="list-group">
-              <li class="list-group-item">Ultimate Features</li>
-              <li class="list-group-item">Responsive Ready</li>
-              <li class="list-group-item">Visual Composer Included</li>
-              <li class="list-group-item">24/7 Support System</li>
-            </ul>
-            <a href="#" class="btn btn-gradient mt-2">Order now</a>
-          </div>
-        </div>
-      </div></div>
     </div>
-    
-  </div>
-</div>
-    <!-- Nav tabs -->
-    
-    
-</div>
-
-
-
+    </div>
 </section>

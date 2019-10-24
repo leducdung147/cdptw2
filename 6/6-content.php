@@ -1,18 +1,78 @@
-
-
-    <section class="img_cover py-5">
+<section class="how py-5">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-5"><img src="images/about_me.jpg" alt="about_me" class="img-fluid">
-            </div>
-
-            <div class="col-12 col-md-7 pl-5">
-                <h1 class="pt-5">Dr.Cloe Brooks</h1>
-                <h3 class="pt-4">Expert Clincal Psychologist in Manhanttan</h3><small></small><img src="" alt="">
-                <p>I am a certified specialist in the branch of psychology concerned with the assessment and treatment of mental illness and behavioural problems. My other passion is publishing. You can find and purchase all my books within this site.</p>
-           <img src="./images/signature.png" alt="signature" width="" height="" class="pt-5 img-fluid">
-            </div>
-        </div>
-    </div>
-</section>
   
+
+            <h1 class="">How I Can Help You</h1>
+                <hr>
+                <div class="text">
+                    IT'S MY GOAL TO CREATE A COMFORTABLE, SAFE ENVIRONMENT, WHERE WE'LL WORK TO ACHIEVE THE GOAL
+                    TOGETHER
+                </div>
+                <div class="swiper-container swiper1 pt-5">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <article><img src="./images/service-3-370x370.jpg" alt="" width="200px" height="200px">
+                                <h4>Self-Esteem Issues</h4>
+                                <p class="pt-4">The most common and dangerous features of low self-esteem is negative
+                                    self-talk.</p>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                        <article><img src="./images/service-3-370x370.jpg" alt="" width="200px" height="200px">
+                                <h4>Self-Esteem Issues</h4>
+                                <p class="pt-4">The most common and dangerous features of low self-esteem is negative
+                                    self-talk.</p>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article><img src="./images/service-3-370x370.jpg" alt="" width="200px" height="200px">
+                                <h4>Self-Esteem Issues</h4>
+                                <p class="pt-4">The most common and dangerous features of low self-esteem is negative
+                                    self-talk.</p>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article><img src="./images/service-3-370x370.jpg" alt="" width="200px" height="200px">
+                                <h4>Self-Esteem Issues</h4>
+                                <p class="pt-4">The most common and dangerous features of low self-esteem is negative
+                                    self-talk.</p>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article><img src="./images/service-3-370x370.jpg" alt="" width="200px" height="200px">
+                                <h4>Self-Esteem Issues</h4>
+                                <p class="pt-4">The most common and dangerous features of low self-esteem is negative
+                                    self-talk.</p>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                                <article><img src="./images/service-3-370x370.jpg" alt="" width="200px" height="200px">
+                                    <h4>Self-Esteem Issues</h4>
+                                    <p class="pt-4">The most common and dangerous features of low self-esteem is negative
+                                        self-talk.</p>
+                                </article>
+                            </div>
+                            <div class="swiper-slide">
+                                    <article><img src="./images/service-3-370x370.jpg" alt="" width="200px" height="200px">
+                                        <h4>Self-Esteem Issues</h4>
+                                        <p class="pt-4">The most common and dangerous features of low self-esteem is negative
+                                            self-talk.</p>
+                                    </article>
+                                </div>
+                                <div class="swiper-slide">
+                                        <article><img src="./images/service-3-370x370.jpg" alt="" width="200px" height="200px">
+                                            <h4>Self-Esteem Issues</h4>
+                                            <p class="pt-4">The most common and dangerous features of low self-esteem is negative
+                                                self-talk.</p>
+                                        </article>
+                                    </div>
+                    </div>
+
+
+                    <div class="swiper-background button-next"><i class="left"></i></div>
+                    <div class="swiper-background button-prev"><i class="right"></i></div>
+                </div>
+
+
+    </div>
+    </section>

@@ -1,57 +1,21 @@
-.help-you {
-  font-family: "texgyretermes", serif;
-  text-align: center;
+.img_site {
+  background: #FCF7F2;
 }
 
-.help-you hr {
-  width: 50px;
-}
-
-.help-you .text {
-  text-align: center;
-  color: #707070;
-  max-width: 540px;
-  margin: 0 auto;
-}
-
-.help-you .swiper-container {
-  position: relative;
-}
-
-.help-you .swiper-container .swiper-slide article .img {
-  position: relative;
-  margin-bottom: 2rem;
-}
-
-.help-you .swiper-container .swiper-slide article .img:hover::before {
-  content: "";
-  position: absolute;
-  background-color: rgba(80, 75, 71, 0.5);
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: -13px;
-}
-
-.help-you .swiper-container .swiper-slide article small {
-  display: block;
-}
-
-.help-you .swiper-container .swiper-slide article p {
-  color: #707070;
-  margin: 0 auto;
-}
-
-.help-you .swiper-container .swiper-slide article #read {
-  padding: 15px 30px;
+.img_site .icon-share a {
   text-decoration: none;
-  line-height: 45px;
-  background: #F0C4B1;
-  color: white;
-  border-radius: 50px;
 }
 
-.help-you .swiper-container .swiper-slide article #read:hover {
-  background: #d4ad9d;
+.img_site .icon-share a ion-icon {
+  width: 25px;
+  height: 25px;
+  padding: 8px;
+  background: burlywood;
+  color: white;
+  border-radius: 50%;
 }
-/*# sourceMappingURL=9.css.map */
+
+.img_site .icon-share a ion-icon:hover {
+  background: #be9e73;
+}
+/*# sourceMappingURL=10.css.map */

@@ -1,21 +1,48 @@
-.img_site {
-  background: #FCF7F2;
+.contact {
+  background-image: url(/cdptw2/images/bg_book_appointment.jpg);
 }
 
-.img_site .icon-share a {
+.contact .title {
+  color: white;
+}
+
+.contact input {
+  border-radius: 50px;
+  height: 50px;
+}
+
+.contact .description {
+  color: #33302e;
+  font-size: 12px;
+}
+
+.contact textarea {
+  border-radius: 20px;
+  height: 100px;
+}
+
+.contact .send-messeage {
+  background: #504B47;
+  border-radius: 50px;
+  color: white;
   text-decoration: none;
 }
 
-.img_site .icon-share a ion-icon {
-  width: 25px;
-  height: 25px;
-  padding: 8px;
-  background: burlywood;
-  color: white;
-  border-radius: 50%;
+.contact .send-messeage:hover {
+  background: #474340;
 }
 
-.img_site .icon-share a ion-icon:hover {
-  background: #be9e73;
+.contact :-ms-input-placeholder {
+  color: #cecece;
 }
-/*# sourceMappingURL=10.css.map */
+
+.contact h1 {
+  font-family: "texgyretermes", serif;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.8rem;
+  }
+}
+/*# sourceMappingURL=11.css.map */

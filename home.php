@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./5/scss/5.css" >
     <link rel="stylesheet" href="./6/scss/6.css" >
     <link rel="stylesheet" href="./7/scss/7.css" >
     <link rel="stylesheet" href="./8/scss/8.css" >
@@ -17,12 +18,12 @@
     <link rel="stylesheet" href="./12/scss/12.css" >
     <link rel="stylesheet" href="./13/scss/13.css" >
     <link rel="stylesheet" href="./14/scss/14.css" >
-    
+    <link rel="stylesheet" href="./19/scss/19.css" >
     <link href="./css/swiper.min.css" rel="stylesheet" type="text/css" />
 
 </head>
   <body>
-
+  <?php include "./5/5-content.php"; ?>
       <?php include "./6/6-content.php"; ?>
       <?php include "./7/7-content.php"; ?>
       <?php include "./8/8-content.php"; ?>
@@ -31,8 +32,15 @@
       <?php include "./11/11-content.php"; ?>
       <?php include "./12/12-content.php"; ?>
       <?php include "./13/13-content.php"; ?>
-      <?php include "./14/14-content.php"; ?>
-      
+   
+      <div class="posts pt-5">
+      <div class="container">
+      <div class="row">
+      <div class="col-12 col-md-8"><?php include "./19/19-content.php"; ?></div>
+      <div class="col-12 col-md-4"></div>
+      </div></div>
+      </div>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 

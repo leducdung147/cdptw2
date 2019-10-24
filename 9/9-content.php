@@ -1,78 +1,18 @@
-<section class="help-you py-5">
-    <div class="container">
-       
 
-            <h1 class="">Feautured Articles</h5>
-
-
-                <div class="swiper-container swiper3 pt-5">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <article>
-                                <div class="img"><img src="./images/post-1-370x209.jpg" alt=""></div>
-                                <small>MARCH 7, 2016</small>
-                                <h4>Cognitive Behavioral Therapy for Insomnia</h4>
-                                <p class="py-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia deserunt mollit anim id est..</p>
-                                    <a id="read" href="#">Read article</a>
-                            </article>
-                        </div>
-                        <div class="swiper-slide">
-                        <article>
-                                <div class="img"><img src="./images/post-1-370x209.jpg" alt=""></div>
-                                <small>MARCH 7, 2016</small>
-                                <h4>Cognitive Behavioral Therapy for Insomnia</h4>
-                                <p class="py-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia deserunt mollit anim id est..</p>
-                                    <a id="read" href="#">Read article</a>
-                            </article>
-                        </div>
-                        <div class="swiper-slide">
-                        <article>
-                                <div class="img"><img src="./images/post-1-370x209.jpg" alt=""></div>
-                                <small>MARCH 7, 2016</small>
-                                <h4>Cognitive Behavioral Therapy for Insomnia</h4>
-                                <p class="py-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia deserunt mollit anim id est..</p>
-                                    <a id="read" href="#">Read article</a>
-                            </article>
-                        </div>
-                        <div class="swiper-slide">
-                        <article>
-                                <div class="img"><img src="./images/post-1-370x209.jpg" alt=""></div>
-                                <small>MARCH 7, 2016</small>
-                                <h4>Cognitive Behavioral Therapy for Insomnia</h4>
-                                <p class="py-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia deserunt mollit anim id est..</p>
-                                    <a id="read" href="#">Read article</a>
-                            </article>
-                        </div>
-                        <div class="swiper-slide">
-                        <article>
-                                <div class="img"><img src="./images/post-1-370x209.jpg" alt=""></div>
-                                <small>MARCH 7, 2016</small>
-                                <h4>Cognitive Behavioral Therapy for Insomnia</h4>
-                                <p class="py-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia deserunt mollit anim id est..</p>
-                                    <a id="read" href="#">Read article</a>
-                            </article>
-                        </div>
-                        <div class="swiper-slide">
-                        <article>
-                                <div class="img"><img src="./images/post-1-370x209.jpg" alt=""></div>
-                                <small>MARCH 7, 2016</small>
-                                <h4>Cognitive Behavioral Therapy for Insomnia</h4>
-                                <p class="py-4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia deserunt mollit anim id est..</p>
-                                    <a id="read" href="#">Read article</a>
-                            </article>
-                        </div>
-                    </div>
-
-
-                  
-                </div>
-
-
-    </div>
-    </section>
+      <section class="img_site text-center py-5"   >
+          <div class="container">
+              
+          
+          <img  class="img_logo my-2" src="http://cloe-brooks-html.themerex.net/images/logo_footer.png" alt="" >
+          <div class="row py-5">
+          <div class="col-12 col-md-6 text-md-right"><p>123, New Lenox</p> <p>USA, Chicago, IL 60606</p></div>
+          <div class="col-12 col-md-6 text-md-left"><p>Phone: 123-456-7890</p> <p>Fax: 123.456.7890</p></div>
+        </div>
+        <div class="icon-share">
+        <a href="#"><ion-icon name="logo-pinterest"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        </div>
+        </div>
+      </section>
