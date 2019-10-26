@@ -1,0 +1,18 @@
+    .post-section{
+        a{
+            text-decoration: none;
+            color: burlywood;
+            &:hover{
+                color: rgb(201, 166, 121);
+            }
+        }
+.read-more{
+padding: 10px 10px;
+background: #F0C4B1;
+border-radius:50px;
+padding-left: 15px;
+&:hover{
+    background: rgb(212, 173, 156);
+}
+}
+}

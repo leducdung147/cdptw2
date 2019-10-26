@@ -1,0 +1,19 @@
+.img_site{
+    background: #FCF7F2;
+    .icon-share{
+        a{
+            text-decoration: none;
+            ion-icon{
+                width: 25px;
+                height: 25px;
+                padding: 8px;
+                background: burlywood;
+                color: white;
+                border-radius: 50%;
+                &:hover{
+                    background: rgb(190, 158, 115);
+                }
+            }
+        }
+    }
+}

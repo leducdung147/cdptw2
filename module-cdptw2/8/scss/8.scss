@@ -1,0 +1,68 @@
+.help-you {
+
+    font-family: "texgyretermes", serif;
+    text-align: center;
+
+
+hr {
+    width: 50px;
+}
+
+.text {
+    text-align: center;
+    color: #707070;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.swiper-container {
+    position: relative;
+
+    .swiper-slide {
+       
+        
+        article {
+            .img {
+          position: relative;
+                margin-bottom: 2rem;
+                &:hover::before{
+                    content: "";
+                    position: absolute;
+                    background-color: rgba(80,75,71,0.5);
+                    top:0;
+                    bottom: 0;
+                    left: 0;
+                   right:-13px;
+                }
+              
+            }
+small{
+    display:block;
+}
+            p {
+                color: #707070;
+                margin: 0 auto;
+                
+            }
+            #read{
+               
+                padding: 15px 30px;
+                text-decoration: none;
+                line-height: 45px;
+                background: #F0C4B1;
+                color:white;
+                border-radius: 50px;
+                &:hover{
+                    background: rgb(212, 173, 157);
+                }
+            }
+        }
+    }
+
+    
+
+
+
+
+}
+}
