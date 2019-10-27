@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/2.css">
     <link rel="stylesheet" href="css/3.css">
     <link rel="stylesheet" href="css/4.css">
+    <link rel="stylesheet" href="css/26.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+
 
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/swiper.min.css">
@@ -19,19 +22,23 @@
 </head>
 
 <body>
-    <?php include "1.php"?>
-    <?php include "2.php"?>
-    <?php include "3.php"?>
-    <?php include "4.php"?>
+    <?php include "1.php" ?>
+    <?php include "2.php" ?>
+    <?php include "3.php" ?>
+    <?php include "4.php" ?>
+    <?php include "26.php" ?>
 
-   
 
     <script src="js/jquery-1.9.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/swiper.min.js"></script>
+    <script src="js/jquery-ui.min"></script>
+    
 
     <script src="js/2.js"></script>
     <script src="js/3.js"></script>
+    <script src="js/26.js"></script>
+
 </body>
 
 </html>
