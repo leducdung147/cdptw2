@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./12/scss/12.css" >
     <link rel="stylesheet" href="./13/scss/13.css" >
     <link rel="stylesheet" href="./14/scss/14.css" >
+    <link rel="stylesheet" href="./18/scss/18.css" >
     <link rel="stylesheet" href="./19/scss/19.css" >
     <link href="./css/swiper.min.css" rel="stylesheet" type="text/css" />
 
@@ -32,12 +33,12 @@
       <?php include "./11/11-content.php"; ?>
       <?php include "./12/12-content.php"; ?>
       <?php include "./13/13-content.php"; ?>
-   
+     
       <div class="posts pt-5">
       <div class="container">
       <div class="row">
       <div class="col-12 col-md-8"><?php include "./19/19-content.php"; ?></div>
-      <div class="col-12 col-md-4"></div>
+      <div class="col-12 col-md-4"><?php include "./18/18-content.php"; ?></div>
       </div></div>
       </div>
     

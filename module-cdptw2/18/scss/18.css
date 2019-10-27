@@ -1,0 +1,36 @@
+.side-bar {
+  background: #504B47;
+}
+
+.side-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+.side-bar h5 {
+  color: white;
+}
+
+.side-bar ul {
+  padding-bottom: 1rem;
+  border-bottom: 0.5px solid #777777;
+  padding: 2rem 3rem;
+  list-style: none;
+}
+
+.side-bar ul li {
+  color: #74706D;
+  margin-top: 0.7rem;
+}
+
+.side-bar ul li:nth-child(2) {
+  margin-top: 1.5rem !important;
+}
+
+.side-bar span {
+  margin-right: 1rem;
+  border-radius: 50px;
+  border: 1px solid #777777;
+  color: #74706D;
+}
+/*# sourceMappingURL=18.css.map */
