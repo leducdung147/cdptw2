@@ -1,0 +1,19 @@
+
+.product-content{
+    padding: 2.65em;
+    text-align: center;
+    background-color: rgba(114,181,202,0.2);
+}
+.product-thumbs>img{
+    border: none;
+    width:  210px;
+    height: 210px;
+}
+.product-title>a:hover{
+    text-decoration: none;
+    color: #72b5ca;
+}
+.product-title>a{
+    color: #33302e;
+    text-decoration: none;
+}
