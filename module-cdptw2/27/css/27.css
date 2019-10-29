@@ -1,8 +1,6 @@
-
 .sidebar_module-27 {
     float: left;
     width: 360px;
-    
 }
 
 .widget-woo-2 {
@@ -62,9 +60,15 @@
     background-color: #72B5CA;
     color: #FFFFFF;
 }
-.filter-price-range:hover,.filter-price-range:focus{
-    outline:none;
+
+.filter-price-range:hover,
+.filter-price-range:focus {
+    outline: none;
     cursor: pointer;
+}
+
+.filter-price-range:hover {
+    background-color: rgba(114, 181, 202, 0.75);
 }
 
 .tagcloud>a:hover {
@@ -81,7 +85,8 @@
     border: 2px solid #696460;
     color: #B1B0AF;
 }
-.tagcloud>a:hover{
+
+.tagcloud>a:hover {
     background-color: #EDB39B;
     color: #FFFFFF;
 }

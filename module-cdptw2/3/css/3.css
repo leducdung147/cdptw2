@@ -19,12 +19,11 @@
     width: 100%;
     height: 48vw;
 }
+
 .slider-wrap {
     color: #FFFFFF;
     font-family: Aller;
-    
 }
-
 
 .module-3__caption-slide1,
 .module-3__caption-slide3 {
@@ -60,6 +59,11 @@
     background-color: rgb(235, 198, 182);
     color: rgb(255, 255, 255);
     line-height: 26px;
+}
+
+.more_infomation:hover {
+    cursor: pointer;
+    background-color: #EDB39B;
 }
 
 .more_infomation.slide2 {

@@ -1,0 +1,55 @@
+.module-29__container {
+    margin-bottom: 2em;
+}
+
+.page_title {
+    font-family: "Aller", sans-serif;
+    background-color: #fcf7f1;
+    font-size: 1.666em;
+    font-weight: 300;
+    line-height: 4.6em;
+    margin: 0 0 1.2em;
+    padding: 0 2.3em;
+}
+
+.icon-filter {
+    float: left;
+    margin-bottom: 1em;
+    margin-right: 1.5em;
+    display: block;
+    font-size: 1.125em;
+}
+
+.icon-list,
+.icon-thumbs {
+    color: #EDB39B;
+    margin-left: 5px;
+}
+
+.icon-list:hover,
+.icon-thumbs:hover {
+    color: #72b5ca;
+}
+
+.woo-result-count {
+    color: #6F6F6F;
+}
+
+.woo-ordering {
+    float: right;
+}
+
+.woo-ordering>.orderby {
+    border-radius: 2em;
+    background-color: #fcf7f1;
+    line-height: 20px;
+    color: #afafaf;
+    font-weight: 300;
+    padding: 10px;
+    border: none;
+    margin-top: -10px;
+}
+
+.woo-ordering>.orderby:focus {
+    outline: none;
+}
