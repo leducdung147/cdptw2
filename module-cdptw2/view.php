@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./27/css/27.css">
     <link rel="stylesheet" href="./28/css/28.css">
     <link rel="stylesheet" href="./29/css/29.css">
+    <link rel="stylesheet" href="./31/css/31.css">
 
     <link rel="stylesheet" href="./27/css/jquery-ui.css">
     <link rel="stylesheet" href="./2/css/animate.css">
@@ -42,6 +43,7 @@
             </div>
         </div>
     </div>
+    <?php include "./31/31.php" ?>
 
 
 
@@ -54,6 +56,7 @@
     <script src="./2/js/2.js"></script>
     <script src="./3/js/3.js"></script>
     <script src="./27/js/27.js"></script>
+    <script src="./31/js/31.js"></script>
 
 </body>
 
