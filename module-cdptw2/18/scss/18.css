@@ -7,8 +7,13 @@
   color: white;
 }
 
+.side-bar a:hover {
+  color: #b18e70;
+}
+
 .side-bar h5 {
   color: white;
+  margin-left: 0em;
 }
 
 .side-bar ul {
@@ -27,10 +32,28 @@
   margin-top: 1.5rem !important;
 }
 
+.side-bar ul button {
+  background: white;
+}
+
+.side-bar ul .dropdown-item {
+  color: black;
+}
+
+.side-bar ul:last-child span {
+  display: inline-block;
+  border: 2px solid #756d6d;
+  padding: 0.4rem;
+  margin: 0.1rem;
+}
+
+.side-bar ul:last-child span:hover {
+  background: #5e5a58;
+  cursor: pointer;
+}
+
 .side-bar span {
-  margin-right: 1rem;
-  border-radius: 50px;
-  border: 1px solid #777777;
-  color: #74706D;
+  border-radius: 50%;
+  color: #edb39b;
 }
 /*# sourceMappingURL=18.css.map */

@@ -69,14 +69,10 @@
     font-weight: 300;
     margin-bottom: 15%;
 }
-
-.btn-explore-more:hover,
-.btn-explore-more:focus {
+.btn-explore-more:hover,.btn-explore-more:focus{
     cursor: pointer;
     outline: none;
-    background-color: rgba(114, 181, 202, 0.75);
 }
-
 @media only screen and (max-width: 768px) {
     .title-module-4 {
         font-size: 30px!important;

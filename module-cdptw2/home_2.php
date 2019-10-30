@@ -24,14 +24,8 @@
 
 </head>
   <body>
-  <?php include "./5/5-content.php"; ?>
-      <?php include "./6/6-content.php"; ?>
-      <?php include "./7/7-content.php"; ?>
-      <?php include "./8/8-content.php"; ?>
-      <?php include "./9/9-content.php"; ?>
-      <?php include "./10/10-content.php"; ?>
-      <?php include "./11/11-content.php"; ?>
-      <?php include "./12/12-content.php"; ?>
+ 
+    
       <?php include "./13/13-content.php"; ?>
      
       <div class="posts py-5">
