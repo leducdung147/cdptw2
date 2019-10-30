@@ -1,0 +1,10 @@
+.woo-tabs-panel {
+    padding: 1.5em 1.5em 1em 1.5em;
+    color: #6f6f6f;
+}
+
+.woo-tabs-panel>h2 {
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #33302e;
+}
