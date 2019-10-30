@@ -1,0 +1,130 @@
+.module-30__container {
+    margin-top: 5%;
+}
+
+.entry-cart {
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #dddddd;
+    overflow: hidden;
+}
+
+.images-product>img {
+    width: 100%;
+}
+
+.entry-title {
+    font-family: "texgyretermes", serif;
+    color: #33302e;
+    font-size: 3.2143em;
+    line-height: 1.3em;
+    font-weight: 400;
+    margin-bottom: 0.75em;
+    margin-top: 0;
+}
+
+.entry-price {
+    color: #EDB39B;
+    font-size: 1.25em;
+    margin-bottom: 1em;
+    font-weight: 400;
+}
+
+.entry-content {
+    margin-bottom: 1.5em;
+    color: #6f6f6f;
+}
+
+.quantity {
+    margin: 0 0.5em 0 0;
+    width: 5em;
+    height: auto;
+    position: relative;
+    float: left;
+}
+
+.quantity>input {
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 25px;
+    outline: none;
+    padding: 0.94em;
+    background-color: #fcf7f1;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-right: 0;
+}
+
+.q_inc::before {
+    content: '\f106';
+    font-family: "FontAwesome";
+}
+
+.q_dec::before {
+    content: '\f107';
+    font-family: "FontAwesome";
+}
+
+.quantity>span {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    width: 1.5em;
+    height: 50%;
+    text-align: center;
+    line-height: 1.5em;
+    cursor: pointer;
+    background-color: #EDB39B;
+    color: #ffffff;
+}
+
+.quantity>span:hover {
+    background-color: #72b5ca;
+}
+
+.q_inc {
+    top: 0;
+}
+
+.q_dec {
+    bottom: 0;
+    border-top: 1px solid #FFFFFF;
+}
+
+.button_single_add_to_cart {
+    color: #ffffff;
+    background-color: #72b5ca;
+    border: none;
+    border-radius: 2em;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin: 0 0 4px 4px;
+    padding: 1.07em 1.333em;
+    text-align: center;
+}
+
+.button_single_add_to_cart:hover,
+.button_single_add_to_cart:focus {
+    outline: none;
+    background-color: rgba(114, 181, 202, 0.75);
+    cursor: pointer;
+}
+
+.product-meta {
+    color: #6f6f6f;
+}
+
+.posted_in {
+    display: block;
+}
+
+.posted_in>a {
+    color: #EDB39B;
+}
+
+.posted_in>a:hover {
+    text-decoration: none;
+    color: #72b5ca;
+}
