@@ -1,13 +1,13 @@
 <article class="side-bar">
 <ul><h5>Categories</h5>
-<li> <a href="">Featured Articles</a></li>
-<li><a href="">Masonry 2 Columns</a></li>
-<li><a href="">Masonry 3 Columns</a></li>
-<li><a href="">Portfolio 2 Columns</a></li>
-<li><a href="">Portfolio 3 Columns</a></li>
-<li><a href="">Post Format</a></li>
-<li><a href="">Standard Blog</a></li>
-<li><a href="">Timeline</a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span> <a href="">Featured Articles</a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span><a href="">Masonry 3 Columns</a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span><a href="">Masonry 2 Columns</a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span><a href="">Portfolio 2 Columns</a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span><a href="">Portfolio 3 Columns</a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span><a href="">Post Format</a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span><a href="">Standard Blog</a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span><a href="">Timeline</a></li>
 </ul>
 <ul><h5>Categories dropdown</h5>
 <div class="dropdown">
@@ -23,25 +23,25 @@
 </ul>
 
 <ul><h5>Categories</h5>
-<li><a href="">February 2016 </a>   </li>
-<li><a href="">February 2015 </a></li>
-<li><a href="">January 2016 </a></li>
-<li> <a href="">December 201</a></li>
-<li><a href="">May 2015 </a></li>
-<li><a href="">October 2014 </a></li>
-<li> <a href="">July 201</a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span><a href="">February 2016 </a>   </li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span><a href="">February 2015 </a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span><a href="">January 2016 </a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span> <a href="">December 201</a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span><a href="">May 2015 </a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span><a href="">October 2014 </a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span> <a href="">July 2014</a></li>
 
 </ul>
 <ul><h5><!-- Search form -->
 <input class="form-control" type="text" placeholder="Search" aria-label="Search"></h5></ul>
 <ul><h5>Recent Posts</h5>
-<li><a href="">Cognitive Behavioral Therapy for Insomni </a></li>
-<li> <a href="">February 201</a></li>
-<li><a href="">January 2016 </a></li>
-<li> <a href="">December 201</a></li>
-<li><a href="">May 2015 </a></li>
-<li> <a href="">October 2014</a></li>
-<li><a href="">July 201 </a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span><a href="">Cognitive Behavioral Therapy for Insomni </a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span> <a href="">February 201</a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span><a href="">January 2016 </a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span> <a href="">December 201</a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span><a href="">May 2015 </a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span> <a href="">October 2014</a></li>
+<li><span> <ion-icon name="checkmark"></ion-icon></span><a href="">July 2017 </a></li>
 
 </ul>
 <ul>
@@ -50,6 +50,6 @@
 </ul>
 <ul>
 <h5>Tags</h5>
-<li><span>Audio</span><span>Biological</span><span>Coginitive</span><span>Lecture</span><span>My office</span></li>
+<li><span>Audio</span><span>Biological</span><span>Coginitive</span><span>Lecturecal</span><span>My office</span></li>
 </ul>
 </article>
