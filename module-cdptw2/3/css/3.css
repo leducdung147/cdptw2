@@ -1,13 +1,13 @@
 .swiper-slide.slide1 {
-    background-image: url(/cdptw2/module-cdptw2/images/slide1.jpg);
+    background-image: url(../../images/slide1.jpg);
 }
 
 .swiper-slide.slide2 {
-    background-image: url(/cdptw2/module-cdptw2/images/slide2.jpg);
+    background-image: url(../../images/slide2.jpg);
 }
 
 .swiper-slide.slide3 {
-    background-image: url(/cdptw2/module-cdptw2/images/slide5.jpg);
+    background-image: url(../../images/slide5.jpg);
 }
 
 .swiper-slide.slide1,

@@ -15,11 +15,14 @@
     <link rel="stylesheet" href="./30/css/30.css">
     <link rel="stylesheet" href="./31/css/31.css">
     <link rel="stylesheet" href="./32/css/32.css">
+    <link rel="stylesheet" href="./33/css/33.css">
+    <link rel="stylesheet" href="./34/css/34.css">
     <link rel="stylesheet" href="./css/view.css">
 
-    <link rel="stylesheet" href="./27/css/jquery-ui.css">
+    
     <link rel="stylesheet" href="./2/css/animate.css">
     <link rel="stylesheet" href="./3/css/swiper.min.css">
+    <link rel="stylesheet" href="./27/css/jquery-ui.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
 
@@ -63,11 +66,14 @@
         </div>
     </div>
 
+    <?php include "./33/33.php" ?>
+    <?php include "./34/34.php" ?>
 
-    <script src="./js/jquery-1.9.1.min.js"></script>
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./3/js/swiper.min.js"></script>
-    <script src="./27/js/jquery-ui.min"></script>
+    <script src="./27/js/jquery-ui.min.js"></script>
 
 
     <script src="./2/js/2.js"></script>

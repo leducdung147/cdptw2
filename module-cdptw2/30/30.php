@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-5">
                 <div class="images-product">
-                    <img src="/cdptw2/module-cdptw2/images/product-12.jpg" alt="product-12">
+                    <img src="./images/product-12.jpg" alt="product-12">
                 </div>
             </div>
             <div class="col-md-7">
