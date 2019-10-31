@@ -1,0 +1,95 @@
+.woo-tabs-panel-comment {
+    padding: 1.5em 1.5em 1em 1.5em;
+    color: #6f6f6f;
+}
+
+.comment_title {
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #33302e;
+}
+.your_rating{
+    margin-bottom: 0;
+}
+
+#rating {
+    border: none;
+    float: left;
+    
+}
+
+#rating input {
+    display: none;
+}
+
+#rating label {
+    color: #ddd;
+    float: right;
+}
+
+#rating label:before {
+    content: "\f005";
+    margin: 2px;
+    width: 1em;
+    height: 1em;
+    font-family: "FontAwesome";
+    display: inline-block;
+}
+
+#rating>input:checked~label, #rating:not(:checked)>label:hover, #rating:not(:checked)>label:hover~label {
+    color: #EDB39B;
+    cursor: pointer;
+}
+
+#rating>input:checked+label:hover, #rating>input:checked~label:hover, #rating>label:hover~input:checked~label, #rating>input:checked~label:hover~label {
+    color: #EDB39B;
+}
+.comment-form-comment{
+    clear: both;
+}
+.comment-form-comment>textarea{
+    height: 150px;
+    width: 100%;
+    font-weight: 400;
+    overflow: auto;
+    background-color: #fcf7f1;
+    color: #6f6f6f;
+    line-height: 1.2857em;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 25px;
+    outline: none;
+    padding:0.9em;
+    resize: none;
+    margin-bottom: 10px;
+
+}
+.comment-form-comment>textarea:focus,.comment-form-author>input:focus,.comment-form-email>input:focus{
+    border-color: #f0e8e3;
+}
+.comment-form-author>input,.comment-form-email>input{
+    background-color: #fcf7f1;
+    color: #6f6f6f;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 25px;
+    outline: none;
+    resize: none;
+    padding: 0.9em;
+    margin-bottom: 10px;
+}
+.btn-review-submit{
+    background-color: #72b5ca;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2em;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin: 0 0 4px 4px;
+    padding: 1.07em 1.333em;
+    text-align: center;
+}
+.btn-review-submit:hover,.btn-review-submit:focus{
+    background-color: rgba(114,181,202,0.75);
+    outline: none;
+    cursor: pointer;
+}
