@@ -5,24 +5,24 @@
 <span class="menu-button" id="all-button">All</span>
 </div>
 <div class="container">
-  <div class="row grid">
+  <div class="row grid">    
            <div class="col-md-4 food pb-2">
-               <a class="gallery-image post-10"><img src="./images/post-7.jpg" alt="" class="img-fluid"></a>
+               <div class="gallery-image post-10"></div>
            </div>
            <div class="col-md-4 food pb-2">
-               <a class="gallery-image post-11"><img src="./images/post-7.jpg" alt="" class="img-fluid"></a>
+               <a class="gallery-image post-11"></a>
            </div>
            <div class="col-md-4 food pb-2">
-               <a class="gallery-image post-12"><img src="./images/post-7.jpg" alt="" class="img-fluid"></a>
+               <a class="gallery-image post-12"></a>
            </div>
            <div class="col-md-4 staff pb-2">
-               <a class="gallery-image post-13"><img src="./images/post-7.jpg" alt="" class="img-fluid"></a>
+               <a class="gallery-image post-13"></a>
            </div>
            <div class="col-md-4 food pb-2">
-               <a class="gallery-image post-14"><img src="./images/post-7.jpg" alt="" class="img-fluid"></a>
+               <a class="gallery-image post-14"></a>
            </div>
            <div class="col-md-4 staff pb-2">
-               <a class="gallery-image post-15"><img src="./images/post-7.jpg" alt="" class="img-fluid"></a>
+               <a class="gallery-image post-15"></a>
            </div>
   </div>
 </div>
