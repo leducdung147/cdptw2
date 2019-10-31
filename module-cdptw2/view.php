@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./29/css/29.css">
     <link rel="stylesheet" href="./30/css/30.css">
     <link rel="stylesheet" href="./31/css/31.css">
+    <link rel="stylesheet" href="./32/css/32.css">
+    <link rel="stylesheet" href="./css/view.css">
 
     <link rel="stylesheet" href="./27/css/jquery-ui.css">
     <link rel="stylesheet" href="./2/css/animate.css">
@@ -45,8 +47,21 @@
     </div>
 
     <?php include "./30/30.php" ?>
-    <?php include "./31/31.php" ?>
-    
+
+    <div class="module_31-32__container container">
+        <ul class="nav nav-tabs wc-tabs" id="myTab" role="tablist">
+            <li class="nav-item description_tabs">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Description</a>
+            </li>
+            <li class="nav-item description_tabs">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Review(0)</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><?php include "./31/31.php" ?></div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"><?php include "./32/32.php" ?></div>
+        </div>
+    </div>
 
 
     <script src="./js/jquery-1.9.1.min.js"></script>

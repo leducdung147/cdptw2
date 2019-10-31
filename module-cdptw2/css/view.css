@@ -1,0 +1,31 @@
+.wc-tabs{
+    border: none!important;
+    font-weight: bold;
+}
+.description_tabs>.nav-link{
+    padding: 0;
+    margin-left: 40px;
+    padding-bottom: 5px;
+}
+.description_tabs>a{
+    color: #6f6f6f;
+}
+
+.wc-tabs>.description_tabs>a
+{
+    position: relative;
+    border: none!important;
+}
+.wc-tabs>.description_tabs>a:hover{
+    border: none!important;
+    color: #33302e;
+}
+.description_tabs>.active::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #EDB39B;
+}

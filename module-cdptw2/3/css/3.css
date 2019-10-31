@@ -61,6 +61,11 @@
     color: rgb(255, 255, 255);
     line-height: 26px;
 }
+.more_infomation:hover,.more_infomation:focus{
+    background-color: rgb(235, 198, 182,0.8);
+    cursor: pointer;
+    outline: none;
+}
 
 .more_infomation.slide2 {
     margin-left: 45%;
