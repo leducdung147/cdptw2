@@ -6,8 +6,12 @@
                 <div class="contact_columns_item-1">
                     <input type="text" placeholder="Name *">
                 </div>
-                <div class="contact_columns_item-2"></div>
-                <div class="contact_columns_item-3"></div>
+                <div class="contact_columns_item-2">
+                    <input type="text" placeholder="Email *">
+                </div>
+                <div class="contact_columns_item-3">
+                    <input type="text" placeholder="Subject">
+                </div> 
             </div>
         </form>
     </div>

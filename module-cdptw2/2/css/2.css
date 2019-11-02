@@ -7,20 +7,22 @@
 .module-2__nav-item.open>.module-2__nav-item-dropdown-menu {
     display: block;
 }
+
 .module-2__nav-item>a {
     padding-top: 1.8em;
     padding-right: 1.25em!important;
     padding-bottom: 1.8em;
     padding-left: 1.25em!important;
 }
+
 .module-2__navbar-collapse {
     flex-direction: row-reverse;
 }
 
-.module-2__nav-item>.nav-link:hover, .module-2__nav-item>.nav-link:focus{
+.module-2__nav-item>.nav-link:hover,
+.module-2__nav-item>.nav-link:focus {
     outline: none!important;
 }
-
 
 @media only screen and (max-width: 996px) {
     .module-2__navbar-collapse {
@@ -32,6 +34,7 @@
         bottom: 0;
         background: #72b5ca;
         transition: left 0.5s;
+        z-index: 100;
     }
     .module-2__navbar-collapse.show {
         left: 0;
