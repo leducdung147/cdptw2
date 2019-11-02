@@ -13,10 +13,60 @@
     background-color: rgba(114, 181, 202, 0.2);
 }
 
+.product-thumbs {
+    position: relative;
+    margin-top: 10px;
+}
+
 .product-thumbs>img {
     width: 100%;
     height: auto;
     margin: 0;
+}
+
+.product-thumbs::before {
+    content: '\f0c1 ';
+    font-family: "FontAwesome";
+    background-color: #EDB39B;
+    position: absolute;
+    text-align: center;
+    font-size: 0.9em;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    line-height: 3em;
+    color: #ffffff;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 10;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin-top: 100px;
+    transition: all ease .3s;
+}
+
+.product-thumbs:hover::before {
+    opacity: 1;
+    margin-top: 0;
+}
+
+.product-thumbs::after {
+    content: ' ';
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(80, 75, 71, 0.5);
+    transition: opacity ease .3s;
+}
+
+.product-thumbs:hover::after {
+    opacity: 1;
+    cursor: pointer;
 }
 
 .product-title>a:hover {

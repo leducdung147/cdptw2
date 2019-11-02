@@ -43,7 +43,8 @@
                 <?php include "./26/26.php" ?>
                 <?php include "./27/27.php" ?>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8"> 
+                <?php include "./29/29.php" ?>
                 <?php include "./28/28.php" ?>
             </div>
         </div>
