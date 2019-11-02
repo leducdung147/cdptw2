@@ -11,10 +11,60 @@
 }
 
 .contact_columns_count_3 {
-    display: flex;
     padding: 0.934em 1.333em;
 }
 
 .contact_columns_count_3 input {
-    color: red;
+    color: #6F6F6F;
+    background-color: #FFFFFF;
+    padding: 0.8em;
+    float: left;
+    margin-left: 30%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 25px;
+}
+
+.contact_columns_count_3 input:focus {
+    outline: none;
+}
+
+.contact_columns_count_3 .form_mesenge_form {
+    clear: both;
+    margin-left: 10%;
+}
+
+.form_mesenge_form .clear textarea {
+    resize: none;
+    width: 95%;
+    border: none;
+    background-color: #FFFFFF;
+    padding: 0.8em;
+    border-radius: 25px;
+}
+
+.form_mesenge_form .clear textarea:focus {
+    outline: none;
+}
+
+.form_mesenge_form>.contact_button_form_submit {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.form_mesenge_form>.contact_button_form_submit>button {
+    text-align: center;
+    background-color: #EDB39B;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 1.66em;
+    padding: 1em 2em;
+}
+
+.form_mesenge_form>.contact_button_form_submit>button:hover,
+.form_mesenge_form>.contact_button_form_submit>button:focus {
+    outline: none;
+    opacity: 0.8;
+    cursor: pointer;
 }
