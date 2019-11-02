@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="./32/css/32.css">
     <link rel="stylesheet" href="./33/css/33.css">
     <link rel="stylesheet" href="./34/css/34.css">
+    <link rel="stylesheet" href="./35/css/35.css">
+    <link rel="stylesheet" href="./36/css/36.css">
     <link rel="stylesheet" href="./css/view.css">
 
     
@@ -69,6 +71,8 @@
 
     <?php include "./33/33.php" ?>
     <?php include "./34/34.php" ?>
+    <?php include "./35/35.php" ?>
+    <?php include "./36/36.php" ?>
 
 
     <script src="./js/jquery-3.4.1.min.js"></script>
@@ -82,6 +86,7 @@
     <script src="./27/js/27.js"></script>
     <script src="./30/js/30.js"></script>
     <script src="./31/js/31.js"></script>
+    <script src="./36/js/36.js"></script>
 
 </body>
 

@@ -1,0 +1,18 @@
+.module-35__container {
+    background-color: #504B47;
+}
+
+.copyright_wrap_inner {
+    padding: 2.5em 0 2em;
+    text-align: center;
+    color: #B1B0AF;
+}
+
+.copyright_wrap_inner a {
+    color: #FFFFFF;
+}
+
+.copyright_wrap_inner a:hover {
+    color: #EBC6B6;
+    text-decoration: none;
+}
