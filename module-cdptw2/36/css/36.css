@@ -1,29 +1,31 @@
 .scroll_to_top {
+    display: block;
+    position: fixed;
     background-color: #EDB39B;
     color: #FFFFFF;
-    position: fixed;
     width: 3em;
     right: 2em;
     height: 3em;
     line-height: 3em;
-    text-align: center;
+    bottom: -4em;
+    opacity: 0;
+    z-index: 10001;
+    text-align: center; 
     cursor: pointer;
-    z-index: 100001;
-    transition: all ease 1.5s;
+    transition: all ease 1.5s; 
 }
 
-.scroll_to_top.show {
+.show_back_to_top{
     opacity: 1;
     bottom: 2em;
 }
-
-.show:hover {
+.show_back_to_top:hover {
     text-decoration: none;
     color: #FFFFFF;
     background-color: #72b5ca;
 }
 
-.show::after {
+.show_back_to_top::after {
     content: '\f106';
     font-family: "FontAwesome";
     width: 1em;
@@ -31,4 +33,5 @@
     text-align: center;
     line-height: 1em;
     margin-left: .2em;
+    
 }

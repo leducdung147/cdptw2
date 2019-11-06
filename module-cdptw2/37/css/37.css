@@ -1,0 +1,35 @@
+.module-37__dir-search{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: right;
+    
+}
+.form_members_search_form{
+    border: 1px solid #ccc;
+    border-color: #fcf7f1;
+    background-color: #fcf7f1;;
+    color: #6f6f6f;
+    border-radius: 2em;
+    font-size: 100%;
+    padding: 0.7em 1em;
+}
+.form_members_search_form:focus{
+    outline: none;
+    border-color: #f0e8e3;
+}
+.button_search_members_button{
+    text-align: center;
+    background-color: #EDB39B;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 1.66em;
+    padding: 1.03em 1.15em;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.15em;
+    border: none;
+}
+.button_search_members_button:hover{
+    background: #72b5ca;
+    cursor: pointer;
+}

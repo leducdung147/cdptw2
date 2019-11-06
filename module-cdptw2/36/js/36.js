@@ -1,16 +1,19 @@
-var mybutton = document.getElementsByClassName("show");
+var mybutton = document.getElementsByClassName("show_back_to_top");
 window.onscroll = function() { scrollFunction() };
 
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-
-        $('.show').css('display', 'block');
-    } else {
-        $('.show').css('display', 'none');
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ) {
+      
+        $(".scroll_to_top").addClass("show_back_to_top");
+        
+    } else{
+        $(".scroll_to_top").removeClass("show_back_to_top");
     }
 }
 
 function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    $('body,html').animate({
+        scrollTop: 0 ,
+        }, 1000,
+        );
 }
