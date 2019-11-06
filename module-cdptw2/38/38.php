@@ -10,4 +10,7 @@
             <option value="alphabetical">Alphabetical</option>
         </select>
     </div>
+    <div class="modile-38__pagination-count">
+        <span>Viewing 1 - 15 of 15 active members</span>
+    </div>
 </div>

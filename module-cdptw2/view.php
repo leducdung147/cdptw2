@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./36/css/36.css">
     <link rel="stylesheet" href="./37/css/37.css">
     <link rel="stylesheet" href="./38/css/38.css">
+    <link rel="stylesheet" href="./39/css/39.css">
     <link rel="stylesheet" href="./css/view.css">
 
     
@@ -77,6 +78,7 @@
     <?php include "./36/36.php" ?>
     <?php include "./37/37.php" ?>
     <?php include "./38/38.php" ?>
+    <?php include "./39/39.php" ?>
     <!-- footer -->
     <?php include "./35/35.php" ?>
 
