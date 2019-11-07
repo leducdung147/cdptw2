@@ -8,8 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    
   <link rel="stylesheet" href="./5/scss/5.css">
   <link rel="stylesheet" href="./6/scss/6.css">
   <link rel="stylesheet" href="./7/scss/7.css">
@@ -45,9 +48,11 @@
   <?php include "./11/11-content.php"; ?>
   <?php include "./12/12-content.php"; ?>
   <?php include "./13/13-content.php"; ?>
+  <?php include "./14/14-content.php"; ?>
   <?php include "./15/15-content.php"; ?>
   <?php include "./16/16-content.php"; ?>
   <?php include "./17/17-content.php"; ?>
+
   <div class="posts py-5">
     <div class="container">
       <div class="row">
@@ -67,7 +72,7 @@
   </div>
   </div>
   </div>
-  <?php include "./17/17-content.php"; ?></div>
+
   <?php include "./24/24-content.php"; ?></div>
 
 

@@ -182,7 +182,7 @@ $grid1.isotope();
 $('#food-button2,#staff-button2, #all-button2').click(function() {
 
   var id = $(this).attr('id');
-  var className = id.replace("-button", "");
+  var className = id.replace("-button2", "");
   $('#food-button2,#staff-button2, #all-button2').removeClass("color");
     $(this).addClass("color");
   if (className == 'all') {
@@ -200,7 +200,7 @@ $grid2.isotope();
 $('#food-button3,#staff-button3, #all-button3').click(function() {
 
   var id = $(this).attr('id');
-  var className = id.replace("-button", "");
+  var className = id.replace("-button3", "");
   $('#food-button3,#staff-button3, #all-button3').removeClass("color");
     $(this).addClass("color");
   if (className == 'all') {
