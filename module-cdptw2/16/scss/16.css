@@ -1,33 +1,26 @@
+.gallery-section .menu {
+  border-bottom: 2px solid #cecece;
+}
+
 .gallery-section .menu-button {
-  padding: 10px 15px;
-  border-bottom: 1px solid #cecece;
+  padding: 10px 0px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.gallery-section .menu-button:first-child {
+  padding-left: 0;
+}
+
+.gallery-section .menu-button:last-child {
+  margin-right: 0;
+}
+
+.gallery-section .color {
+  border-bottom: 2px solid cadetblue;
 }
 
 .gallery-section .gallery-image {
   visibility: inherit;
-}
-
-.gallery-section .post-10 {
-  background-image: url("../../images/post-7.jpg");
-}
-
-.gallery-section .post-11 {
-  background-image: url("../../images/post-9.jpg") no-repeat center center fixed;
-}
-
-.gallery-section .post-12 {
-  background-image: url("../../images/post-10.jpg") no-repeat center center fixed;
-}
-
-.gallery-section .post-13 {
-  background-image: url("../../images/post-11.jpg") no-repeat center center fixed;
-}
-
-.gallery-section .post-14 {
-  background-image: url("../../images/post-12.jpg") no-repeat center center fixed;
-}
-
-.gallery-section .post-15 {
-  background-image: url("../../images/post-13.jpg") no-repeat center center fixed;
 }
 /*# sourceMappingURL=16.css.map */

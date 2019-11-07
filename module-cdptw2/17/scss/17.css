@@ -1,0 +1,32 @@
+/* ---- grid ---- */
+.full-images {
+  /* clear fix */
+  /* ---- .grid-item ---- */
+}
+
+.full-images .grid {
+  background: #DDD;
+}
+
+.full-images .grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.full-images .grid-item {
+  float: left;
+  width: 33%;
+  height: 200px;
+  background: #0D8;
+  border-bottom: 10px solid white;
+}
+
+.full-images .grid-item--width2 {
+  width: 63%;
+}
+
+.full-images .grid-item--height2 {
+  height: 200px;
+}
+/*# sourceMappingURL=17.css.map */

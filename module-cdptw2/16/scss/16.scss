@@ -1,18 +1,35 @@
 .gallery-section{
-    .menu-button{
-        padding: 10px 15px;
-        border-bottom: 1px solid #cecece;
+    .grid{
+     
     }
+    .menu{
+        border-bottom: 2px solid #cecece;
+    }
+    .menu-button{
+        padding:  10px 0px;
+       margin-right: 15px;  
+        cursor: pointer;
+        &:first-child {
+            padding-left: 0;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    .color{
+     
+        border-bottom: 2px solid cadetblue;
+        
+        
+    }
+  
    
     .gallery-image{
         visibility: inherit;
     }
-  .post-10{background-image: url('../../images/post-7.jpg') ;
+ 
 };
-    .post-11{background-image: url('../../images/post-9.jpg') no-repeat center center fixed};
-    .post-12{background-image: url('../../images/post-10.jpg') no-repeat center center fixed};
-    .post-13{background-image: url('../../images/post-11.jpg') no-repeat center center fixed};
-    .post-14{background-image: url('../../images/post-12.jpg') no-repeat center center fixed};
-    .post-15{background-image: url('../../images/post-13.jpg') no-repeat center center fixed};
+   
+    
 
-}  
+    

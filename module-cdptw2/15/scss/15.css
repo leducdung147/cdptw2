@@ -1,1 +1,43 @@
-/* No CSS *//*# sourceMappingURL=15.css.map */
+.masory-section .menu {
+  border-bottom: 2px solid #cecece;
+}
+
+.masory-section .menu-button {
+  padding: 10px 0px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.masory-section .menu-button:first-child {
+  padding-left: 0;
+}
+
+.masory-section .menu-button:last-child {
+  margin-right: 0;
+}
+
+.masory-section .color {
+  border-bottom: 2px solid cadetblue;
+}
+
+.masory-section .imgdiv {
+  width: 100%;
+  height: 230px;
+}
+
+@media screen and (max-width: 992px) {
+  .masory-section .imgdiv {
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .masory-section .imgdiv {
+    height: 300px;
+  }
+}
+
+.masory-section .gallery-image {
+  visibility: inherit;
+}
+/*# sourceMappingURL=15.css.map */
