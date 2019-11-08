@@ -1,0 +1,67 @@
+.module-40___title-regular>h3 {
+    color: #33302e;
+    position: relative;
+    padding-bottom: 2px;
+    font-family: "texgyretermes", serif;
+    font-size: 2.333em;
+    line-height: 1.3em;
+    font-weight: 400;
+    margin-top: 1.714em;
+    margin-bottom: 1.2em;
+}
+
+.sc_tabs-styles {
+    display: block;
+    border: none!important;
+}
+
+.tabs_panel>.nav-link {
+    padding: 0.2em 0.2em;
+    margin-right: 3px;
+}
+
+.tabs_panel>a {
+    color: #6f6f6f;
+}
+
+.sc_tabs-styles>.tabs_panel>.nav-link {
+    position: relative;
+    border: none!important;
+}
+
+.sc_tabs-styles>.tabs_panel>.nav-link:hover {
+    border: none!important;
+    color: #33302e;
+}
+
+.tabs_panel>.active::after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    z-index: 2;
+    background-color: #72b5ca;
+}
+
+.tabs_panel>a::after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    z-index: 2;
+    background-color: #e4e7e8;
+}
+
+.module-40__tabs-content {
+    margin-top: -1px;
+    padding: 1.5em 0;
+    color: #6F6F6F;
+}
+
+.module-40__tabs-content>.tab-pane.active {
+    margin-bottom: 1.5em;
+}
